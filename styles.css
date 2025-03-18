@@ -1,0 +1,63 @@
+/* Custom styles for Sports World website */
+
+/* Hero section styles */
+.hero-section {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://source.unsplash.com/1600x900/?sports') no-repeat center center;
+    background-size: cover;
+    color: white;
+    margin-bottom: 2rem;
+    padding-top: 60px;
+}
+
+/* Card styles */
+.sport-card {
+    transition: transform 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+.sport-card:hover {
+    transform: translateY(-5px);
+}
+
+.news-card {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 100%;
+}
+
+/* Section styles */
+section {
+    scroll-margin-top: 60px;
+}
+
+/* Form styles */
+.form-control {
+    border-radius: 0;
+    border: 1px solid #ddd;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #007bff;
+}
+
+/* Button styles */
+.btn {
+    border-radius: 0;
+    padding: 0.5rem 2rem;
+}
+
+/* Navbar styles */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero-section {
+        height: 70vh;
+    }
+}
